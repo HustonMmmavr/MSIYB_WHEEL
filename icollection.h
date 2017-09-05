@@ -5,6 +5,13 @@
 
 NAMESPACE_BEGIN
 
+
+class ICollection
+{
+
+};
+
+
 NAMESPACE_END
 
 #endif

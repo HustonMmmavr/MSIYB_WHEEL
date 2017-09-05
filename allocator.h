@@ -3,10 +3,14 @@
 
 
 #include "defines.h"
-#include "allocator_base.h"
+#include "allocatorbase.h"
 
 
+template <typename T>
+class Allocator: public AllocatorBase<T>
+{
 
+};
 
 
 NAMESPACE_BEGIN

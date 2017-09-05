@@ -6,7 +6,10 @@
 
 NAMESPACE_BEGIN
 
+class ArrayList: public ICollection
+{
 
+};
 
 NAMESPACE_END
 

@@ -6,4 +6,8 @@
 
 NAMESPACE_BEGIN
 
+template <typename T>
+using AllocatorBase = NewAllocator<T>;
+
 NAMESPACE_END
+#endif
