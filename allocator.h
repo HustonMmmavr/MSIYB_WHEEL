@@ -3,8 +3,10 @@
 
 
 #include "defines.h"
-#include "allocatorbase.h"
+#include "baseallocator.h"
 
+
+NAMESPACE_BEGIN
 
 template <typename T>
 class Allocator: public AllocatorBase<T>
@@ -13,7 +15,7 @@ class Allocator: public AllocatorBase<T>
 };
 
 
-NAMESPACE_BEGIN
-
 NAMESPACE_END
+
+
 #endif
